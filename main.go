@@ -1,31 +1,31 @@
 package main
 
 import (
-	"bufio"
+	// "bufio"
 	"fmt"
-	"os"
-	basictypes "stepikcourse/basic_types"
+	// "os"
+	// basictypes "stepikcourse/basic_types"
 )
 
 func main() {
-	reader := bufio.NewReader(os.Stdin)
+	fmt.Print("There's nothing yet..")
+	// reader := bufio.NewReader(os.Stdin)
+	// for {
+	// 	fmt.Print("choose\n (1 is AboutString as example)\n or Q to exit: ")
 
-	for {
-		fmt.Print("choose\n (1 is AboutString as example)\n or Q to exit: ")
+	// 	input, _ := reader.ReadString('\n')
+	// 	input = input[:len(input)-1]
 
-		input, _ := reader.ReadString('\n')
-		input = input[:len(input)-1]
+	// 	switch input {
+	// 	case "1":
+	// 		basictypes.AboutString()
+	// 	case "q", "Q":
+	// 		fmt.Println("cya")
+	// 		return
+	// 	default:
+	// 		fmt.Println("what")
+	// 	}
 
-		switch input {
-		case "1":
-			basictypes.AboutString()
-		case "q", "Q":
-			fmt.Println("cya")
-			return
-		default:
-			fmt.Println("what")
-		}
-
-		fmt.Println()
-	}
+	// 	fmt.Println()
+	// }
 }
