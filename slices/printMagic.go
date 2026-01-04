@@ -27,7 +27,7 @@ func printMagic(input []int) string {
 		suffix[i] = suffix[i+1] * input[i+1]
 	}
 
-	for i := 0; i < len(input); i++ {
+	for i := range input {
 		result[i] = prefix[i] * suffix[i]
 	}
 
